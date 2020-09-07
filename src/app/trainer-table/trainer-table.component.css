@@ -1,0 +1,8 @@
+tr {
+    color : white;
+}
+
+tbody :hover{
+    cursor: pointer;
+    color: red;
+}

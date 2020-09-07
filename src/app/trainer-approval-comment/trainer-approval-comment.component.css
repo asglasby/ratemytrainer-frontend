@@ -1,0 +1,24 @@
+.comment-background {
+    background-color : black;
+    border : 3px solid rgb(204, 201, 201);
+    border-radius: 3px;
+    width: 500px;
+    margin-left: 30%;
+}
+
+.text-container{
+    text-align: center; 
+    font-family: cursive;
+}
+
+.btn{
+    background-color: black;
+    border : 2px solid rgb(204, 201, 201);
+}
+
+body{
+    background-color: black;
+}
+
+
+

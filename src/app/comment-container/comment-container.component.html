@@ -1,0 +1,16 @@
+<div>
+    <div class="row">
+        <div class="comment_size white_panel">
+            <app-add-comment *ngIf="isUserLoggedIn"></app-add-comment>
+        </div>
+    </div>
+    <div class="row">
+        <table class="comment_size">
+            <tr *ngFor = "let comment of commentArray">
+                <td>
+                    <app-comment [testName]=comment.userUser.firstName [testComment]=comment.commentText [testDate]=comment.datePosted></app-comment>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
